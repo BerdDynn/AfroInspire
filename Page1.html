@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>First site</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="top">
+    <div class="navbar red card left-align large">
+      <a href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="#" >Home</a>
+      <a href="#" >Link 1</a>
+      <a href="#" >Link 2</a>
+      <a href="#" >Link 3</a>
+      <a href="#" >Link 4</a>
+    </div>
+  </div>
+  
+  <!-- Header -->
+  <header class="head" style="padding:128px 16px">
+    <h1>Bienvenue sur AfroInspire</h1>
+  </header>
+  
+  <!-- First Grid -->
+  <div class="First_Grid">
+    <div>
+        <h1>Le thème AFRO</h1>
+        <h5>AFRO est un terme qui fait référence à la culture, 
+            à l'histoire et aux communautés afro-descendantes.</h5>
+
+        <p class="parag1">Il est souvent utilisé pour désigner les personnes et les cultures 
+            originaires d'Afrique et de la diaspora africaine à travers le monde. Le terme "afro" 
+            peut être associé à divers aspects tels que l'identité, la musique, la danse, la mode, la cuisine, l'art
+            , l'histoire et les mouvements sociaux des communautés afro-descendantes.</p>
+    </div>
+
+    <div>
+        <img src="afro_thème.jpg" alt="Afro thème picture">
+    </div>
+  </div>
+  
+  <!-- Second Grid -->
+  <div class="Scnd_Grid">
+    <div>
+    <!-- <i class="fa fa-coffee padding-64 text-red margin-right"></i> -->
+    <img src="afro_thème.jpg" alt="Afro music picture">
+    </div>
+
+    <div>
+    <h1>AFRO dans la musique</h1>
+    <h5 class="padding-32">La présence de l'influence afro dans la musique est immense 
+        et profondément enracinée dans l'histoire et la culture.</h5>
+
+    <p class="text-grey">   La musique afro tire ses origines de diverses traditions musicales
+         des cultures africaines. Ces traditions ont été transportées à travers la diaspora 
+         africaine due à la traite des esclaves, influençant ainsi la création de nouveaux genres et styles musicaux. <br>    
+         Les rythmes et les percussions sont des éléments fondamentaux de la musique afro. Ils sont souvent complexes, 
+         polyrythmiques et jouent un rôle central dans de nombreux genres, de la musique africaine traditionnelle 
+         aux genres modernes comme le jazz, le reggae et le funk.
+        </p>
+    </div>
+  </div>
+  
+  <div class="quote">
+      <h1>Quote of the day: live life</h1>
+  </div>
+  
+  <!-- Footer -->
+  <footer class="container padding-64 center opacity">  
+    <div class="xlarge padding-32">
+      <i class="fa fa-facebook-official hover-opacity"></i>
+      <i class="fa fa-instagram hover-opacity"></i>
+      <i class="fa fa-snapchat hover-opacity"></i>
+      <i class="fa fa-pinterest-p hover-opacity"></i>
+      <i class="fa fa-twitter hover-opacity"></i>
+      <i class="fa fa-linkedin hover-opacity"></i>
+   </div>
+   <p>Powered by <a href="https://github.com/BerdDynn/AfroInspire.git" target="_blank">BerdDynn</a></p>
+  </footer>
+  
+  <script>
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("show") == -1) {
+      x.className += " show";
+    } else { 
+      x.className = x.className.replace(" show", "");
+    }
+  }
+  </script>
+
+</body>
+</html>

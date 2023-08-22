@@ -1,0 +1,70 @@
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .navbar {
+    background-color: rgb(231, 75, 215);
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    padding: 1rem;
+  }
+  
+  .navbar a {
+    color: black;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  
+  .head {
+    padding: 128px 16px;
+    background-color: rgb(231, 75, 215);
+    text-align: center;
+  }
+  
+  .First_Grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px;
+  }
+
+  .Scnd_Grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px;
+    /* background-color: rgb(222, 217, 217); */
+  }
+  
+  .parag1, .text-grey {
+    color: #999;
+  }
+  
+  .padding-64 {
+    padding: 64px;
+  }
+  
+  .text-red {
+    color: red;
+  }
+  
+  .margin-right {
+    margin-right: 1rem;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 64px;
+  }
+  
+  .hover-opacity:hover {
+    opacity: 0.7;
+  }
+
+  .quote {
+    text-align: center;
+    background-color: grey;
+    padding: 50px;
+    color: white;
+  }
+  
