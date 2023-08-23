@@ -1,14 +1,19 @@
 body, h1, h2, h3, h4, h5, h6 {
     font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
   }
   
   .navbar {
-    background-color: rgb(231, 75, 215);
+    background-color: rgb(246, 125, 234);
     color: white;
     font-family: "Montserrat", sans-serif;
     padding: 1rem;
     position: fixed;
-    width: 95vw;
+    width: 100vw;
+    margin: 0;
+    top: 0;
+    left: 0;
   }
   
   .navbar a {
@@ -16,11 +21,21 @@ body, h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     margin: 0 1rem;
   }
+/* Pour changer spécialement la couleur du 'Toggle Navigation Menu' */
+  /* .navbar a i.fa-bars:hover {
+    color: #ff9900;
+} */
+
+
+  .navbar a:hover {
+    color: white;
+  }
   
   .head {
-    padding: 128px 16px;
-    background-color: rgb(231, 75, 215);
+    background-color: rgb(246, 125, 234);
     text-align: center;
+    margin: 0;
+    padding: 0;
   }
   
   .First_Grid {
@@ -66,5 +81,6 @@ body, h1, h2, h3, h4, h5, h6 {
     background-color: rgb(216, 212, 216);
     padding: 50px;
     color: black;
+    size: 10;
   }
   
