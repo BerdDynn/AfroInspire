@@ -1,4 +1,4 @@
-"# AfroInspire" 
+## AfroInspire 
 
 `AfroInspire` is a website showcases the AFRO theme, which refers to culture, history, and Afro-descendant communities. It explores Afro influences in various domains, including music, identity, and culture.
 
